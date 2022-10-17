@@ -1,0 +1,14 @@
+
+.header nav{
+    padding: 1.0625rem;
+    
+  }
+.header__logo img{
+    width: 67px;
+    height: 66px;
+}
+.header_links a{
+    font-family: "Roboto Mono";
+
+
+}
