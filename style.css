@@ -1,14 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05213D;
+}
 
-.header nav{
-    padding: 1.0625rem;
-    
-  }
+
+.header__logo{
+
+    margin-left: 19px;
+}
 .header__logo img{
     width: 67px;
     height: 66px;
 }
-.header_links a{
+.header__links a{
     font-family: "Roboto Mono";
+    color: white;
+    position:relative;
+    transition: color 300ms ease-in-out;
+    text-decoration: none;
+
+}
+
+.header__links a:hover{
+    font-weight: bold;
+}
+
+.header__user img{
+    width: 56px;
+    height: 51px;
+    position:relative;
 
 
 }
