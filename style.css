@@ -34,3 +34,17 @@ header{
 
 
 }
+footer{
+    background-color: #05213D;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.copyright a{
+    font-family: "Roboto Mono";
+    color: white;
+    margin-left: 19px;
+   
+}

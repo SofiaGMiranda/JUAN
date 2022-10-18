@@ -22,7 +22,9 @@ class MyFooter extends HTMLElement{
     connectedCallback(){
         this.innerHTML= `
         <footer>
-        © 2022 PenguinOS
+        <div class="copyright">
+        <a>© 2022 PenguinOS</a>
+        </div>
         </footer> `
     }
 }
