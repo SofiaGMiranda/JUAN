@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>Perfil</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style_profile.css">
     <link rel="icon" href="imagenes/juan_mostacho.png">
     <script type=module src=main.js></script>
     
@@ -19,52 +19,62 @@
 <div class="info">
     <div class="personal_data">
         <div clas="user_info">
-            <div class="profile_pic"></div>
+            <div class="profile_pic">
+                <img src="imagenes/kittyProfile.jpg" alt="user">
+            </div>
             <div class="username">
-                <div class="name"></div>
-                <div class="user"></div>
-                <div class="rank"></div>
-            </div>
-            <button class="edit_profile">Editar Perfil</button>
-            <button class="edit_bio">Editar Bio</button>
-        </div>
-        <a class="github">
-            <div>
-                <span class="logo"></span>
-                <span class="link">
-                    <div class="github_user">prueba</div>
-                </span>
-            </div>
-        </a>
-        <a class="linkedin">
-            <div>
-                <span class="logo"></span>
-                <span class="link">
-                    <div class="linkedin_user">prueba</div>
-                </span>
-            </div>
-        </a>
-    </div>
-    <div class="community_activity">
-        <h3>Comunidad</h3>
-        <div class="community">
-            <div class="forum">
-                Participación en el foro
-                <div class="entries"></div>
+                <div class="name">Fernando Guido</div>
+                <div class="user">@fernandoguido</div>
+                <div class="rank">Puesto:</div>
             </div>
         </div>
+        <button type="button" class="edit_profile">Editar Perfil</button>
+        <button type="button" class="edit_bio">Editar Bio</button>
+        <div class="social_media">
+            <a href=# class="github">
+            <div>
+                <span class="logo">
+                    <img src="imagenes/github.png" alt="github_logo">
+                </span>
+                <span class="link">
+                    <div class="github_user">no data</div>
+                </span>
+            </div>
+            </a>
+            <a href=# class="linkedin">
+                <div>
+                    <span class="logo">
+                        <img src="imagenes/LinkedIn_logo_initials.png" alt="linkedin_logo">
+                    </span>
+                    <span class="link">
+                        <div class="linkedin_user">no data</div>
+                    </span>
+                </div>
+            </a>
+        </div>
+        
     </div>
-    <hr>
-    <div class="languages">
-        <h3>Lenguajes aprendidos</h3>
-        No data
+    <div class="web_activity">
+        <div class="community_activity">
+            <h3>Comunidad</h3>
+            <div class="community">
+                <div class="forum">
+                    Participación en el foro
+                    <div class="entries"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="languages">
+            <h3>Lenguajes aprendidos</h3>
+            No data
+        </div>
+        <hr>
+        <div class="skills">
+            <h3>Habilidades</h3>
+            No data
+        </div>
     </div>
-    <hr>
-    <div class="skills">
-        <h3>Habilidades</h3>
-        No data
-    </div>
-
 </div>
 
 <my-footer></my-footer>

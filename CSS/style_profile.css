@@ -1,0 +1,95 @@
+.info{
+    position: relative;
+    width: 436px;
+    height: 898px;
+    left: 18px; 
+    top: 26px;
+    background: #F0C561;
+    border-radius: 10px;
+}
+.user_info{
+    position:absolute;
+}
+.username{
+    position:absolute;
+    top:23px;
+    right:77px;
+    font-family: "Roboto Mono";
+}
+.name{
+    font-size: 24px;
+}
+.user{
+    font-size: 16px;
+}
+.rank{
+    position:absolute;
+    font-size:20px;
+    top:74px;
+}
+.profile_pic img{
+    position:absolute;
+    width: 119px;
+    height: 109px;
+    left:25px;
+    top:18px; 
+}
+button{
+    position:absolute;
+    font-family: "Roboto Mono";
+    background-color: #FE79C6;
+    padding: 14px 112px;
+    font-size:20px;
+    border: none;
+    color: white;
+    border-radius: 18px;
+    left:25px;
+    width: 381px;
+    height: 52px;
+}
+button:hover{
+    background-color: #CF6CB4;
+    transition: 0.2s;
+    
+}
+.edit_profile{
+    
+    top:153px;
+    
+}
+.edit_bio{
+    
+    top:224px;
+}
+.social_media{
+    position:absolute;
+    top:310px;
+    font-family: "Inconsolata";
+    left:23px;
+    width: 436px;
+}
+
+
+.github:link{
+    color:black;
+}
+
+.linkedin:link{
+    color:black;
+}
+.logo img{
+    width: 29px;
+    height: 29px;
+}
+.link{
+    position:absolute;
+    left:55px;
+    font-size: 16px;;
+}
+
+.web_activity{
+    position:absolute;
+    top:439px;
+}
+    
+
