@@ -10,7 +10,7 @@ class MyHeader extends HTMLElement{
             <a href=#>¡A practicar!</a> <a href=#>Foro</a> 
           </div>
         </nav>
-        <a href="profile.html" class="header__user">
+        <a href="HTML/profile.html" class="header__user">
             <img src="imagenes/kittyProfile.jpg" alt="user">
         </header> `
     }
