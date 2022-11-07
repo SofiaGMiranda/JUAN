@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+        <title>Nueva Entrada</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./CSS/style_new_entry.css">
+        <link rel="icon" href="imagenes/juan_mostacho.png">
+        <script type=module src=main.js></script>
+        
+    </head> 
+
+<my-header></my-header>
+
+<body >
+    
+    <div class="menu_text">Crear nueva publicación</div>
+    
+    <ul class="input_list">
+        
+        <li class="input_field">
+            <input type="text" id="fname" name="postname" placeholder="Ingresa el título de tu publicación...">
+        </li>
+        <li class="input_field">
+            <input type="text" id="fname" name="postname" placeholder="Ingresa las etiquetas para tu publicación...">
+        </li>
+    </ul>
+    
+    <div class="post_text">
+        <textarea class="post_input" name="post" id="post" placeholder="Escribe algo..."></textarea>
+    </div>
+
+    <div class="menu_buttons">
+        <ul ul class="button_list">    
+            <button class="menu_button" style="background-color: #9aceac;">Postear</button>
+            <button class="menu_button">Cancelar</button>
+        </ul>
+    </div>
+
+    <my-footer style="position: absolute; bottom: 0px; width: 100%;"></my-footer>
+</body>
+</html>
