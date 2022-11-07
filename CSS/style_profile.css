@@ -1,3 +1,7 @@
+body{
+    background-color: #EFF0EB;
+    display:block;
+}
 .title{
     font-family: "Roboto Mono";
     font-size: 24px;
@@ -5,7 +9,7 @@
 .info{
     position: relative;
     width: 436px;
-    height: 898px;
+    height: 1137px;
     left: 18px; 
     top: 26px;
     background: #F0C561;
@@ -97,7 +101,7 @@ button:hover{
     width: 491px;
     height: 335px;
     left: 486px; 
-    bottom:872px;
+    bottom:1111px;
 
     background: #F0C561;
     border-radius: 10px;
@@ -128,8 +132,6 @@ button:hover{
     top:0px;
     font-family: "Roboto Mono";
     text-align: center;
-
-
 }
 #courseTwo{
     position: absolute;
@@ -190,4 +192,63 @@ button:hover{
 .progress-value:hover{
     color: rgb(0,0,0,1 );
     transition: 0.8s ease-in-out;
+}
+.forum-entries{
+    position: relative;
+    width: 934px;
+    height: 773px;
+    left: 486px; 
+    bottom:1085px;
+
+    background: #F0C561;
+    border-radius: 10px;
+}
+#entriesTitle{
+    position: absolute;
+    top:18px;
+    left:18px;
+}
+.group_entries{
+    position: relative;
+    top:76px;
+    left:29px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+	margin: 0;
+	max-width: 811px;
+    
+	position: relative;
+    
+}
+li{
+    height:70px;
+    padding: 21px 24px;
+	border-radius: 18px;
+	background: #52A4B9;
+    color:white;
+}
+
+#entry2{
+    position: relative;
+    top:32px;
+    background: #57C7FF;
+}
+#entry3{
+    position: relative;
+    top:64px;
+    background: #9ACEAC;
+}
+.time{
+    
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    float:right;
+}
+.entries{
+    position: relative;
+    font-family: "Inconsolata";
+    font-size: 20px;
+    top:24px;
 }
