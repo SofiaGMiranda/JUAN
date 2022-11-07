@@ -188,8 +188,6 @@ button:hover{
     color: rgb(0,0,0,0 );
 }
 .progress-value:hover{
-
     color: rgb(0,0,0,1 );
     transition: 0.8s ease-in-out;
-    
 }
