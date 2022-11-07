@@ -1,6 +1,10 @@
+html,body{
+    height: 100%;
+}
 body{
     background-color: #EFF0EB;
     display:block;
+
 }
 .title{
     font-family: "Roboto Mono";
@@ -40,7 +44,7 @@ body{
     left:25px;
     top:18px; 
 }
-button{
+.edit a{
     position:absolute;
     font-family: "Roboto Mono";
     background-color: #FE79C6;
@@ -50,10 +54,12 @@ button{
     color: white;
     border-radius: 18px;
     left:25px;
-    width: 381px;
-    height: 52px;
+    width: 160px;
+    height: 30px;
+    text-decoration: none;
+
 }
-button:hover{
+.edit a:hover{
     background-color: #CF6CB4;
     transition: 0.2s;
     
@@ -126,12 +132,15 @@ button:hover{
     width: 134px;
     height: 22px;
     border-radius: 7px;
-    border:solid;
-    border-width: thin;
     left:330px;
     top:0px;
     font-family: "Roboto Mono";
     text-align: center;
+    color: rgb(255,255,255,0 );
+}
+.progress:hover{
+    color: black;
+    transition: 0.8s;
 }
 #courseTwo{
     position: absolute;
@@ -158,7 +167,11 @@ button:hover{
     top: 94px;
     background: #F0C561;
     border-radius: 10px;
-
+    
+}
+.progressG:hover{
+    color: rgb(0,0,0,1 );
+    transition: 0.8s ease-in-out;
 }
 .progressG{
     position: absolute;
@@ -167,12 +180,13 @@ button:hover{
     align-items: center;
     display: flex;
     flex-direction: column;
- 
+    color: rgb(0,0,0,0 );
     width:400px;
     padding:25px 0;
     border-radius: 8px;
     background-color: rgb(255,255,255,0 );
 }
+
 .circular_progress{
     position:relative;
     width:250px;
@@ -187,12 +201,9 @@ button:hover{
     position:relative;
     top:105px;
     left:105px;
-    color: rgb(0,0,0,0 );
+    
 }
-.progress-value:hover{
-    color: rgb(0,0,0,1 );
-    transition: 0.8s ease-in-out;
-}
+
 .forum-entries{
     position: relative;
     width: 934px;
@@ -252,3 +263,99 @@ li{
     font-size: 20px;
     top:24px;
 }
+#profilePic img{
+    position: relative;
+    width: 250px;
+    height: 223px;
+    left:37px;
+    top:35px;
+}
+.edit{
+    font-family: "Roboto Mono";
+    font-size: 20px;
+}
+#changePic{
+    position:relative;
+    top:30px;
+    left:30px;
+
+}
+.edit_user_info{
+    position:relative;
+    left:388px;
+    bottom:208px;
+    width: 970px;
+}
+
+.subtitles{
+    position: relative;
+    font-family: "Roboto Mono";
+    font-size: 24px;
+}
+#name{
+    position: relative;
+    right:600px;
+    float:right;    
+    font-family: "Inconsolata";
+}
+#nameInfo img{
+    position: relative;
+    left: 888px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #EFF0EB;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }

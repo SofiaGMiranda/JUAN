@@ -14,9 +14,8 @@
     <script type=module src=main.js></script>
     
 </head>
-
+<my-header></my-header>
 <body>
-    <my-header></my-header>
     <div class="info">
         <div class="personal_data">
             <div>
@@ -29,8 +28,11 @@
                     <div class="rank">Puesto:</div>
                 </div>
             </div>
-            <button type="button" class="edit_profile">Editar Perfil</button>
-            <button type="button" class="edit_bio">Editar Bio</button>
+            <div class="edit">
+                <a href="./editProfile.html" type="button" class="edit_profile">Editar Perfil</a>
+                <a type="button" class="edit_bio">Editar Bio</a>
+            </div>
+            
             <div class="social_media">
                 <a href=# class="github">
                 <div>
@@ -128,7 +130,8 @@
         </div>
 
     </div>
-    <my-footer></my-footer>
+    
+    
 </body>
-
+<my-footer></my-footer>     
 </html>

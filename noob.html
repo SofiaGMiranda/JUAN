@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Home Page | JUAN</title>
+    <link rel="icon" href="imagenes/juan_mostacho.png"> 
+    
+    
+</head>
+<my-header>
+    <header class="header">
+        <a href="index.html" class="header__logo">
+            <img src="imagenes/juan_mostacho.png" alt="JUAN">
+        <nav>
+          <div class="header__links ">
+            <a href=#>¡A practicar!</a> <a href=#>Foro</a> 
+          </div>
+        </nav>
+        <a href=# class="header__user">
+            <img src="imagenes/kittyProfile.jpg" alt="user">
+    </header> 
+</my-header>
+<body>
+    <div>
+        <div class="text">
+            <h1>¡Bienvenido/a a J.U.A.N!</h1>
+            <h3>
+            Una plataforma donde podrás aprender a programar como se debe.
+            Tendrás acceso a una gran comunidad de estudiantes programadores donde te ayudarán en tu trayectoria como programador.
+            Además, podrás realizar ejercicios para reforzar lo aprendido
+            </h3>
+            <h2>¿Qué hacemos primero?</h2>
+        </div>
+    
+    <div class="a">
+        <button class="practicar">Ir a practicar</button>
+        <button class="perfil">Editar perfil</button>
+    </div>
+    <div class="b">
+        <button class="foro">Ver foro</button>
+    </div>
+    
+</body>
+<my-footer>
+    <footer>
+        <div class="copyright">
+        <a>© 2022 PenguinOS</a>
+        </div>
+    </footer>
+</my-footer>
+
+</html>
+
+<style>
+
+ *{
+    font-family: "Roboto Mono";
+ }   
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05213D;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+
+.header__logo{
+
+    margin-left: 19px;
+}
+.header__logo img{
+    width: 67px;
+    height: 66px;
+}
+.header__links a{
+    font-family: "Roboto Mono";
+    color: white;
+    position:relative;
+    transition: color 300ms ease-in-out;
+    text-decoration: none;
+
+}
+
+.header__links a:hover{
+    font-weight: bold;
+}
+
+.header__user img{
+    width: 56px;
+    height: 51px;
+    position:relative;
+
+
+}
+
+.a,.b{
+    display: inline-block;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+
+
+.practicar{
+    margin-right: 20em;
+}
+.text{
+    margin: auto;
+    width: 640px;
+    padding: 100px;
+}
+
+button{
+    background-color: #B86DBD;
+    color: white;
+    border:none;
+    width:200px;
+    height: 55px;
+    border-radius: 15%;
+    font-size: 20px;
+    
+}
+button:hover{
+    font-weight: bold
+}
+
+
+footer{
+    background-color: #05213D;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:0;
+
+}
+.copyright a{
+    font-family: "Roboto Mono";
+    color: white;
+    margin-left: 10px;
+   
+}
+</style>
