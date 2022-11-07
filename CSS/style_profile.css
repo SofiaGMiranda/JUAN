@@ -143,3 +143,53 @@ button:hover{
     position: absolute;
     top:202px;
 }
+#titleGProgress{
+    position: absolute;
+    top:18px;
+    left:18px;
+}
+.general_progress{
+    position: absolute;
+    width: 418px;
+    height: 334px;
+    left: 1001px;
+    top: 94px;
+    background: #F0C561;
+    border-radius: 10px;
+
+}
+.progressG{
+    position: absolute;
+    top:30px;
+    left:10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ 
+    width:400px;
+    padding:25px 0;
+    border-radius: 8px;
+    background-color: rgb(255,255,255,0 );
+}
+.circular_progress{
+    position:relative;
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#9ACEAC 0deg,white 0deg);
+}
+
+.progress-value{
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position:relative;
+    top:105px;
+    left:105px;
+    color: rgb(0,0,0,0 );
+}
+.progress-value:hover{
+
+    color: rgb(0,0,0,1 );
+    transition: 0.8s ease-in-out;
+    
+}
