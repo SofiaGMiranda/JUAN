@@ -1,3 +1,7 @@
+.title{
+    font-family: "Roboto Mono";
+    font-size: 24px;
+}
 .info{
     position: relative;
     width: 436px;
@@ -7,9 +11,7 @@
     background: #F0C561;
     border-radius: 10px;
 }
-.user_info{
-    position:absolute;
-}
+
 .username{
     position:absolute;
     top:23px;
@@ -52,13 +54,10 @@ button:hover{
     transition: 0.2s;
     
 }
-.edit_profile{
-    
+.edit_profile{ 
     top:153px;
-    
 }
 .edit_bio{
-    
     top:224px;
 }
 .social_media{
@@ -90,6 +89,57 @@ button:hover{
 .web_activity{
     position:absolute;
     top:439px;
+    left:18px;
 }
     
+.detailed_progress{
+    position: relative;
+    width: 491px;
+    height: 335px;
+    left: 486px; 
+    bottom:872px;
 
+    background: #F0C561;
+    border-radius: 10px;
+}
+#titleProblems{
+    position: absolute;
+    top:18px;
+    left:18px;
+}
+.courses{
+    position: absolute;
+    left:18px;
+    top:64px;
+}
+.titleCourse{
+    font-family: "Inconsolata";
+    font-size: 20px;
+}
+.progress{
+    position: absolute;
+    background-color: white;
+    width: 134px;
+    height: 22px;
+    border-radius: 7px;
+    border:solid;
+    border-width: thin;
+    left:330px;
+    top:0px;
+    font-family: "Roboto Mono";
+    text-align: center;
+
+
+}
+#courseTwo{
+    position: absolute;
+    top:62px;
+}
+#courseThree{
+    position: absolute;
+    top:137px;
+}
+#courseFour{
+    position: absolute;
+    top:202px;
+}
